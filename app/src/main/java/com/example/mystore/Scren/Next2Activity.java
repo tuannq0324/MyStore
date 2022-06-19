@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.mystore.HomeActivity;
 import com.example.mystore.LoginActivity;
 import com.example.mystore.R;
 import com.example.mystore.Scren.Next3Activity;
@@ -38,7 +39,7 @@ public class Next2Activity extends AppCompatActivity {
         skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+                startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                 finish();
             }
         });
