@@ -4,14 +4,7 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        debug {
-            storeFile file('D:\\Android Studio\\key.jks')
-            storePassword 'Tuandz0324'
-            keyAlias 'key0'
-            keyPassword 'Tuandz0324'
-        }
-    }
+
     compileSdk 31
 
     defaultConfig {
